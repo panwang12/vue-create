@@ -1,5 +1,5 @@
 {
-  "name": "vue-tool",
+  "name": "@entaurus/vue-tool",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
