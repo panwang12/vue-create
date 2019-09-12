@@ -1,12 +1,12 @@
 <template>
-  <div class="wscn-http404-container">
+  <div class="vue-name">
   </div>
 </template>
 
 <script lang='ts'>
 import { Component, Vue } from 'vue-property-decorator';
 console.log(2434343)
-export default class Object extends Vue {
+export default class vue-Name extends Vue {
 
 }
 </script>
