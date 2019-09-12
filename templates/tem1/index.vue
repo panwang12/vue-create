@@ -1,0 +1,16 @@
+<template>
+  <div class="wscn-http404-container">
+  </div>
+</template>
+
+<script lang='ts'>
+import { Component, Vue } from 'vue-property-decorator';
+console.log(2434343)
+export default class Object extends Vue {
+
+}
+</script>
+
+<style rel="stylesheet/scss" lang="scss" scoped>
+
+</style>
