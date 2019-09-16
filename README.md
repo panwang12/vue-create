@@ -10,11 +10,34 @@
 
 ### 定制模板
  1. 在项目根目录新建模板文件夹
- 2. 在package.json的vuetool.templatePath字段指定模板文件的位置 example foo/tem
- 3. 在模板文件夹新建组件模板,文件夹名就是模板名
+ 2. 在 **package.json** 的**vuetool.templatePath** 字段指定模板文件的位置 example:foo/tem
+ 3. 在模板文件夹下新建组件模板,文件夹名就是模板名,模板名下的文件就是要生成的模板, 模板文件夹=> 模板名=> 模板,
+  * 模板文件example
+     ```javascript
+        //index.vue ,其中vue-name 是变量,生成的组件会替换成模板名
+        <template>
+          <div class="vue-name">
+          </div>
+        </template>
 
-###package.json
- 1. package.json的配置文件,指定vuetool的配置
+      <script>
+      export default {
+
+      }
+      </script>
+
+      <style scoped>
+
+      </style>
+
+      //style.css  ,其中vue-name 是变量,生成的组件会替换成模板名
+      .vue-name{
+    
+      }
+     ```
+
+### package.json
+ 1. **package.json** 的配置文件,指定 vuetool 的配置
  ```javascript
   "vuetool":{
     "templatePath":"", //同命令行 --tempath
